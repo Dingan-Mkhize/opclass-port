@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="nav fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#FBE0C3] text-black">
       <div>
-        <h1 className="text-4xl sm:text-4xl font-bold text-[#344648">PRINCE</h1>
+        <h1 className="text-4xl sm:text-4xl font-bold text-[#344648]">PRINCE</h1>
       </div>
 
       {/* menu */}
@@ -49,7 +49,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#FBE0C3] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
