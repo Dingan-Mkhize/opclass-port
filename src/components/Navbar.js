@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-//import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,25 +16,37 @@ const Navbar = () => {
   return (
     <div className="nav fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#FBE0C3] text-black">
       <div>
-        <h1 className="text-4xl sm:text-4xl font-bold text-[#344648]">PRINCE</h1>
+        <h1 className="text-4xl sm:text-4xl font-bold text-[#344648]">
+          PRINCE
+        </h1>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <a href="/">Home</a>
+          <a href="/" className=" hover:text-[#FBE0C3]">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/about" className="hover:text-[#FBE0C3]">
+            About
+          </a>
         </li>
         <li>
-          <a href="/skills">Skills</a>
+          <a href="/skills" className="hover:text-[#FBE0C3]">
+            Skills
+          </a>
         </li>
         <li>
-          <a href="/work">Work</a>
+          <a href="/work" className="hover:text-[#FBE0C3]">
+            Work
+          </a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/contact" className="hover:text-[#FBE0C3]">
+            Contact
+          </a>
         </li>
       </ul>
 
@@ -75,7 +86,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/dingan-mkhize-b2153518a/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -83,7 +96,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Dingan-Mkhize"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>

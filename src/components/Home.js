@@ -1,9 +1,6 @@
 import React from "react";
 
-
 const Home = () => {
-  
-
   return (
     <div name="home" className="w-full h-screen bg-[#fff6ed]">
       {/* Container */}
@@ -17,9 +14,9 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-[#7D8E95] py-4 max-w-[700px]">
-          I’m a full-stack developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          I’m a full-stack developer specializing in building exceptional
+          digital experiences. Currently, I’m focused on building responsive
+          full-stack web applications.
         </p>
         <div>
           <button className="text-black group border-2 border-black px-6 py-3 my-2 flex items-center hover:bg-[#FBE0C3] hover:border-[#ff9764]">
