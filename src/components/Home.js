@@ -3,8 +3,6 @@ import React from "react";
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#fff6ed]">
-      {/* Container */}
-
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="font-bold text-[#7D8E95]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-black">
