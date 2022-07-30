@@ -14,9 +14,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="nav fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#FBE0C3] text-black">
+    <div className="nav fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-black">
       <div>
-        <h1 className="text-4xl sm:text-4xl font-bold text-[#344648]">
+        <h1 className="text-4xl sm:text-4xl font-bold text-[#ffffff]">
           PRINCE
         </h1>
       </div>
@@ -24,27 +24,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <a href="/" className=" hover:text-[#FBE0C3]">
+          <a href="/" className=" hover:text-[#ffffff]">
             Home
           </a>
         </li>
         <li>
-          <a href="/about" className="hover:text-[#FBE0C3]">
+          <a href="/about" className="hover:text-[#ffffff]">
             About
           </a>
         </li>
         <li>
-          <a href="/skills" className="hover:text-[#FBE0C3]">
+          <a href="/skills" className="hover:text-[#ffffff]">
             Skills
           </a>
         </li>
         <li>
-          <a href="/work" className="hover:text-[#FBE0C3]">
+          <a href="/work" className="hover:text-[#ffffff]">
             Work
           </a>
         </li>
         <li>
-          <a href="/contact" className="hover:text-[#FBE0C3]">
+          <a href="/contact" className="hover:text-[#ffffff]">
             Contact
           </a>
         </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#FBE0C3] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
@@ -83,9 +83,9 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#034eb6] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/dingan-mkhize-b2153518a/"
               target="_blank"
               rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="https://github.com/Dingan-Mkhize"
               target="_blank"
               rel="noopener noreferrer"
@@ -103,15 +103,15 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#179e95] ">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-white"
               href="/"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#dadfdf] ">
             <a
               className="flex justify-between items-center w-full text-grey-300"
               href="/"
