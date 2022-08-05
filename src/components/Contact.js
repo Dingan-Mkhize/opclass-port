@@ -21,7 +21,7 @@ const Contact = () => {
         </div>
 
         <input
-        title="name"
+          title="name"
           id="inputID"
           className="bg-[#dadfdf] p-2"
           type="text"
@@ -30,7 +30,7 @@ const Contact = () => {
         />
 
         <input
-        title="email"
+          title="email"
           id="inputID"
           className="my-4 p-2 bg-[#dadfdf]"
           type="email"
@@ -39,7 +39,7 @@ const Contact = () => {
         />
 
         <textarea
-        title="message"
+          title="message"
           id="inputID"
           className="bg-[#dadfdf] p-2"
           name="message"
@@ -47,7 +47,7 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
 
-        <button className="text-black border-black border-2 hover:bg-[#179e95]  hover:text-[#ffffff] px-4 py-3 my-8 mx-auto flex items-center rounded-full">
+        <button className="shadow-md shadow-[#040c16] text-black border-black border-2 hover:bg-[#179e95]  hover:text-[#ffffff] px-4 py-3 my-8 mx-auto flex items-center rounded-full">
           Let's Collaborate
         </button>
       </form>
