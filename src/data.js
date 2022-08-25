@@ -8,7 +8,8 @@ export const Projects = [
     link: "https://fancy-pavlova-326fd0.netlify.app",
   },
   {
-    title: "React JS Application",
+    title: "Book Listing App",
+    link: "https://cheery-maamoul-917f12.netlify.app",
   },
   {
     title: "React JS Application",

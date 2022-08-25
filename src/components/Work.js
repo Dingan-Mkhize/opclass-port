@@ -1,7 +1,6 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import { Projects } from "../data";
-//import realEstate from "../assets/realestate.jpg";
 
 const Work = () => {
   return (
@@ -14,7 +13,6 @@ const Work = () => {
           <p className="py-6">Check out some of my recent work</p>
         </div>
 
-        {/* Project 1 */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {Projects.map((project) => (
             <div
