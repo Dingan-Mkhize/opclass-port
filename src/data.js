@@ -7,30 +7,6 @@ import GitHub from "./assets/github.png";
 import Tailwind from "./assets/tailwind.png";
 import Mongo from "./assets/mongo.png";
 
-export const Projects = [
-  {
-    title: "JS Calculator",
-    link: "https://courageous-praline-0206b8.netlify.app",
-  },
-  {
-    title: "Portfolio",
-    link: "https://fancy-pavlova-326fd0.netlify.app",
-  },
-  {
-    title: "Book Listing App",
-    link: "https://cheery-maamoul-917f12.netlify.app",
-  },
-  {
-    title: "React JS Application",
-  },
-  {
-    title: "React JS Application",
-  },
-  {
-    title: "React JS Application",
-  },
-];
-
 export const Stacks = [
   {
     title: "HTML",
@@ -63,5 +39,29 @@ export const Stacks = [
   {
     title: "TAILWIND CSS",
     img: Tailwind,
+  },
+];
+
+export const Projects = [
+  {
+    title: "JS Calculator",
+    link: "https://courageous-praline-0206b8.netlify.app",
+  },
+  {
+    title: "Portfolio",
+    link: "https://fancy-pavlova-326fd0.netlify.app",
+  },
+  {
+    title: "Book Listing App",
+    link: "https://cheery-maamoul-917f12.netlify.app",
+  },
+  {
+    title: "React JS Application",
+  },
+  {
+    title: "React JS Application",
+  },
+  {
+    title: "React JS Application",
   },
 ];
