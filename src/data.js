@@ -1,3 +1,12 @@
+import HTML from "./assets/html.png";
+import CSS from "./assets/css.png";
+import JavaScript from "./assets/javascript.png";
+import ReactImg from "./assets/react.png";
+import Node from "./assets/node.png";
+import GitHub from "./assets/github.png";
+import Tailwind from "./assets/tailwind.png";
+import Mongo from "./assets/mongo.png";
+
 export const Projects = [
   {
     title: "JS Calculator",
@@ -19,5 +28,40 @@ export const Projects = [
   },
   {
     title: "React JS Application",
+  },
+];
+
+export const Stacks = [
+  {
+    title: "HTML",
+    img: HTML,
+  },
+  {
+    title: "CSS",
+    img: CSS,
+  },
+  {
+    title: "JAVASCRIPT",
+    img: JavaScript,
+  },
+  {
+    title: "REACT",
+    img: ReactImg,
+  },
+  {
+    title: "GITHUB",
+    img: GitHub,
+  },
+  {
+    title: "NODE JS",
+    img: Node,
+  },
+  {
+    title: "MONGO DB",
+    img: Mongo,
+  },
+  {
+    title: "TAILWIND CSS",
+    img: Tailwind,
   },
 ];
