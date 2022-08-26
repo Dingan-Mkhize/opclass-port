@@ -17,7 +17,7 @@ const Skills = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {Stacks.map((stack) => (
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#1B365D]">
-              <img className="w-20 mx-auto" src={stack.img} alt="HTML icon" />
+              <img className="w-20 mx-auto" src={stack.img} alt="skills icons" />
               <p className="my-4 text-[#ffffff]">{stack.title}</p>
             </div>
           ))}

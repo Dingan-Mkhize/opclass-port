@@ -83,7 +83,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="shadow-lg shadow-[#040c16] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#034eb6] ">
+          <li className="shadow-lg shadow-[#7d7d7d] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#034eb6] ">
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://www.linkedin.com/in/dingan-mkhize-b2153518a/"
@@ -93,7 +93,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="shadow-lg shadow-[#040c16] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
+          <li className="shadow-lg shadow-[#7d7d7d] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
             <a
               className="flex justify-between items-center w-full text-white"
               href="https://github.com/Dingan-Mkhize"
@@ -103,7 +103,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="shadow-lg shadow-[#040c16] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0c8179] ">
+          <li className="shadow-lg shadow-[#7d7d7d] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0c8179] ">
             <a
               className="flex justify-between items-center w-full text-white"
               href="/contact"
@@ -111,7 +111,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="shadow-lg shadow-[#040c16] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#dadfdf] ">
+          <li className="shadow-lg shadow-[#7d7d7d] w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#dadfdf] ">
             <a
               className="flex justify-between items-center w-full text-grey-300"
               href="/"

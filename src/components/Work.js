@@ -1,5 +1,4 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
 import { Projects } from "../data";
 
 const Work = () => {
@@ -16,7 +15,8 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {Projects.map((project) => (
             <div
-              style={{ backgroundImage: `url(${WorkImg})` }}
+            key={project.id}
+              style={{ backgroundImage: `url(${project.picture})` }}
               className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
             >
               <div className="opacity-0 group-hover:opacity-100">
