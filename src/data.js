@@ -1,5 +1,3 @@
-
-
 import HTML from "./assets/html.png";
 import CSS from "./assets/css.png";
 import JavaScript from "./assets/javascript.png";
@@ -11,7 +9,6 @@ import Mongo from "./assets/mongo.png";
 import Calculator from "./assets/jscal.png";
 import Portfolio from "./assets/portfolioapp.png";
 import BookList from "./assets/booklist.png";
-
 
 export const Stacks = [
   {
@@ -65,10 +62,9 @@ export const Projects = [
     id: 2,
     title: "Book Listing App",
     link: "https://cheery-maamoul-917f12.netlify.app",
-    picture: BookList
+    picture: BookList,
   },
 
-  
   {
     id: 3,
     title: "React JS Application",
@@ -81,6 +77,4 @@ export const Projects = [
     id: 5,
     title: "React JS Application",
   },
-
-
 ];
