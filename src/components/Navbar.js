@@ -58,7 +58,7 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="py-6 text-4xl">
           <a href="/about">About</a>

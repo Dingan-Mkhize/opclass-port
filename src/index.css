@@ -22,6 +22,10 @@
   ) !important;
 }
 
+section {
+  display: flex;
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
