@@ -18,7 +18,7 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <a href="/" className=" hover:text-[#ffffff]">
+          <a href="/" className="hover:text-[#ffffff]">
             Home
           </a>
         </li>
