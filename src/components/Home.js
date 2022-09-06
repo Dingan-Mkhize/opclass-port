@@ -17,7 +17,7 @@ const Home = () => {
           full-stack web applications.
         </p>
         <div>
-          <button className="shadow-md shadow-[#7d7d7d] text-white group border-2 border-[#000000] px-6 py-3 my-2 flex items-center bg-[#179e95] hover:bg-[#ffffff] hover:text-[#000000] rounded-md">
+          <button className="shadow-md shadow-[#7d7d7d] text-white group border-2 border-[#000000] px-6 py-3 my-2 flex items-center bg-[#037c74] hover:bg-[#ffffff] hover:text-[#000000] rounded-md">
             <a href="/work">View Work</a>
           </button>
         </div>
