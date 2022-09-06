@@ -9,7 +9,7 @@ const Skills = () => {
           <header className="text-4xl text-[#000000] font-bold inline border-b-4 border-[#00bfb2] ">
             Skills
           </header>
-          <p className="py-4 text-[#4a4c4c]">
+          <p className="py-6 text-[#4a4c4c]">
             These are the technologies I've worked with
           </p>
         </div>
