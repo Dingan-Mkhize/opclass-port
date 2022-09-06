@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
           {Stacks.map((stack) => (
             <div
-              className="shadow-md shadow-[#7d7d7d] rounded-md hover:scale-110 duration-500 bg-[#1B365D]"
+              className="shadow-md shadow-[#7d7d7d] rounded-md hover:scale-110 duration-500 bg-[#1b365d]"
               key={stack.id}
             >
               <img
